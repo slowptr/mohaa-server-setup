@@ -1,2 +1,17 @@
 # mohaa-server-setup
-A simple bash script to setup a moh(aa/sh/bt) server using Appelpitje's docker project
+
+## Usage
+To create a MOHAA server using my script, you need to follow these steps:
+1. Install 'docker' as well as 'docker compose'
+2. Decide on one of the tags on [Appelpitje's Docker Hub page](https://hub.docker.com/r/appelpitje/mohaa-server/tags).
+3. Download and edit the [setup.sh](https://raw.githubusercontent.com/slowptr/mohaa-server-setup/main/setup.sh) so that it meets your wishes :)
+4. Execute the command 'chmod +x setup.sh' to give it execution permissions
+5. Run './setup.sh'
+
+---
+
+## Afterwards?
+- You now have a dockerized MOHAA server
+  - Change the server configurations
+  - Run it via 'docker compose up'
+  - Profit?
