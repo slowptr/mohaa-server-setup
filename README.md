@@ -15,3 +15,8 @@ To create a MOHAA server using my script, you need to follow these steps:
   - Change the server configurations
   - Run it via 'docker compose up'
   - Profit?
+
+---
+
+## Credits
+- [Appelpitje](https://github.com/Appelpitje) - for his great docker servers and his general addition to the community :)
