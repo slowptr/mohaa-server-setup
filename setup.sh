@@ -1,6 +1,6 @@
 #!/bin/sh
 ########## SETTINGS ###########
-TAG_NAME="SH-NightFall"
+TAG_NAME="SH-DavensFixes"
 CONTAINER_NAME="game-mohaa-server"
 GAME_FOLDER="./files"
 ###############################
@@ -26,7 +26,7 @@ EOF
 docker compose create
 
 # ! setup files
-TMP_FILE="_tmp.tar"
+TMP_FILE=$(mktemp)
 TMP_DIR=$(mktemp -d)
 
 mkdir "$GAME_FOLDER"
